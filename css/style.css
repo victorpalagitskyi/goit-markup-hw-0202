@@ -68,9 +68,9 @@ body {
 .header-link:focus {
   color: var(--accentcolor);
 }
-.actctiv-page {
+/* .actctiv-page {
   color: var(--accentcolor);
-}
+} */
 
 .header-mail {
   color: var(--accentcolor);
