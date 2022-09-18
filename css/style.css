@@ -62,7 +62,7 @@ body {
 }
 
 .header-link {
-
+color: var(--maincolor);
 }
 .header-link:hover,
 .header-link:focus {
@@ -127,6 +127,8 @@ cursor: pointer;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+color: var(--maincolor);
+
 }
 
 .advances-item {
