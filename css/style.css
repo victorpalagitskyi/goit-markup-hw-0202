@@ -1,0 +1,234 @@
+:root {
+  --maincolor: #212121;
+  --accentcolor: #2196f3;
+  --mainfont: "Roboto", sans-serif;
+  --sectioncolor: #eeeeee;
+  --btncolor: #f5f4fa;
+  --typicallh: 1.33;
+  --typycalls: 0.02em;
+  --indexcolor: #ffffff;
+  --colorp:#757575;
+}
+
+body {
+  font-family: var(--mainfont);
+  background-color: #f5f5f5;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.section-navb {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.btn {
+}
+
+/* --------навігація-------- */
+.web {
+  font-family: Raleway Font;
+  font-style: 700px;
+  font-size: 26px;
+  line-height: 1.19;
+  list-style: 0.03em;
+  color:var(--accentcolor);
+}
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--maincolor);
+}
+
+.header-link {
+  color: var(--maincolor);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accentcolor);
+}
+.actctiv-page {
+  color: var(--accentcolor);
+}
+
+.header-mail {
+  color: var(--accentcolor);
+}
+.header-tel {
+  color: var(--colorp);
+}
+/* ----hero index---  */
+
+.hero {
+  background-color: #2f303a;
+}
+.heroh {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--indexcolor);
+}
+
+.herobtn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--indexcolor);
+  background: var(--accentcolor);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.advances {
+}
+
+.advances-h {
+}
+
+.advances-list {
+}
+
+.advances-item {
+}
+
+.advances-unditem {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--maincolor);
+}
+
+.advances-itemp {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--colorp);
+}
+/* whatdo */
+.whatdoh {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--maincolor);
+}
+/* -----company------ */
+
+.company {
+  background-color: var(--btncolor);
+}
+.companyh {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--maincolor);
+}
+
+.company-list {
+}
+
+.company-item {
+}
+
+.companyhh {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--maincolor);
+}
+
+.companyp {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--colorp);
+}
+/* ---------------------portfolio----------- */
+.heroportfolio {
+    background-color:var(--btncolor);}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--maincolor);
+  background-color: var(--btncolor);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--indexcolor);
+  background-color: var(--accentcolor);
+}
+/* Work */
+.work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--maincolor);
+}
+.under-work-title {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--colorp);
+}
+/* ---------footer-------- */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.adress {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--indexcolor);
+}
+.adress-mail,
+.adress-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
