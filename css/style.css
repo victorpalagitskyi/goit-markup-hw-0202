@@ -129,14 +129,14 @@ body {
   color: var(--maincolor);
 }
 
-.advances-itemp {
+.advances-item {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--colorp);
 }
 /* whatdo */
-.whatdoh {
+.whatdo-main {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
@@ -149,7 +149,7 @@ body {
 .company {
   background-color: var(--btncolor);
 }
-.companyh {
+.company-main {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -164,7 +164,7 @@ body {
 .company-item {
 }
 
-.companyhh {
+.company-people {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -172,7 +172,7 @@ body {
   color: var(--maincolor);
 }
 
-.companyp {
+.company-position {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
