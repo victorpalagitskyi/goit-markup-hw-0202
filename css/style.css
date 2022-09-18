@@ -12,6 +12,7 @@
 
 body {
   font-family: var(--mainfont);
+  color: var(--maincolor);
   background-color: #f5f5f5;
 }
 .visually-hidden {
@@ -38,8 +39,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.btn {
-}
+
 
 /* --------навігація-------- */
 .web {
@@ -58,11 +58,11 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  color: var(--maincolor);
+
 }
 
 .header-link {
-  color: var(--maincolor);
+
 }
 .header-link:hover,
 .header-link:focus {
@@ -73,7 +73,7 @@ body {
 } */
 
 .header-mail {
-  color: var(--accentcolor);
+  color:var(--colorp);
 }
 .header-tel {
   color: var(--colorp);
@@ -83,7 +83,7 @@ body {
 .hero {
   background-color: #2f303a;
 }
-.heroh {
+.hero-main {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -106,6 +106,7 @@ body {
   background: var(--accentcolor);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+cursor: pointer;
 }
 
 .advances {
@@ -126,7 +127,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--maincolor);
 }
 
 .advances-item {
@@ -142,7 +142,6 @@ body {
   line-height: 1.67;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--maincolor);
 }
 /* -----company------ */
 
@@ -155,7 +154,6 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--maincolor);
 }
 
 .company-list {
@@ -169,7 +167,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--maincolor);
 }
 
 .company-position {
@@ -187,8 +184,8 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: var(--maincolor);
   background-color: var(--btncolor);
+cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -201,7 +198,6 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--maincolor);
 }
 .under-work-title {
   font-size: 16px;
@@ -232,3 +228,15 @@ body {
 .adress-tel {
   color: rgba(255, 255, 255, 0.6);
 }
+.header-mail:hover,
+.header-tel:hover,
+.adress-mail:hover,
+.adress-tel:hover,
+.header-mail:focus,
+.header-tel:focus,
+.adress-mail:focus,
+.adress-tel:focus
+{
+color:var(--accentcolor)
+}
+
